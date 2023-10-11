@@ -1,0 +1,43 @@
+﻿
+{
+  "personalizations": [
+    {
+      "to": [
+        {
+          "email": "example@xyz.com",
+          "name": "example"
+        }
+      ],
+      "bcc": [
+        {
+          "email": "example@xyz.com"
+        }
+      ],
+      "dynamic_template_data": {
+        "name": "example",
+        "Account_Number": "example"
+      },
+      "subject": "Hello, World!",
+      "custom_args": {
+      "Id": "1",
+      "Letter_Number": "321",
+      "Client_ID": "65498",
+        "Account_Num": "32165498",
+        "Namespace": "1254572"
+      }
+    }
+  ],
+  "from": {
+    "email": "anupam.singh@convergentusa.com",
+    "name": "Anupam Singh"
+  },
+  "reply_to": {
+    "email": "vedwivedi@convergentusa.com",
+    "name": "Veerendra"
+  },
+  "template_id": "d-ccec296151dc42bfac057c8bf582eb05",
+  "asm": {
+    "group_id": ""
+  },
+  "ip_pool_name": ""
+}
